@@ -1,0 +1,8 @@
+.words {
+    color:red;
+}
+
+.div {
+    display: flex;
+    flex-direction: row-reverse;
+}
