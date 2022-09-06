@@ -1,8 +1,43 @@
-.words {
-    color:red;
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Rubik+Dirt&display=swap");
+
+html {
+    font-size: 62.5%;
 }
 
-.div {
+.big {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.less-little {
+    height: 90px;
+    width: 275px;
+    background-color: bisque;
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: 200;
+    font-size: 9rem;
+    color:rgb(238, 88, 88);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+.more-little {
+    height: 90px;
+    width: 275px;
+    background-color: bisque;
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: 200;
+    font-size: 5rem;
+    color:rgb(238, 88, 88);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-style: dashed;
+    border-color: black;
 }
